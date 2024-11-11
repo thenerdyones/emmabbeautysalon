@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="#">
+        <title>Emma B Beauty Salon</title>
+        <!-- CSS -->
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,300italic,300,700,700italic'
+                rel='stylesheet' type='text/css'>
+
+        <style>
+                body {
+                        font-family: 'Roboto Condensed', sans-serif;
+                        background-image: url('path-to-background-image.jpg');
+                        /* Replace with actual background image path */
+                        background-size: cover;
+                        color: #ffffff;
+                }
+
+                .container {
+                        max-width: 800px;
+                        margin: auto;
+                        padding: 20px;
+                        color: #ffffff;
+                }
+
+                .section-title {
+                        font-family: 'Great Vibes', cursive;
+                        font-size: 2.5em;
+                        text-align: center;
+                        margin-bottom: 10px;
+                        color: #ffffff;
+                }
+
+                .sub-title {
+                        text-align: center;
+                        font-weight: bold;
+                        margin-bottom: 30px;
+                        color: #ffffff;
+                }
+
+                .about-section {
+                        text-align: center;
+                        margin-bottom: 50px;
+                }
+
+                .service-list {
+                        display: flex;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                        margin: 20px 0;
+                }
+
+                .service-category {
+                        width: 48%;
+                        margin-bottom: 20px;
+                }
+
+                .service-category h4 {
+                        text-align: center;
+                        font-weight: bold;
+                        color: #ffffff;
+                }
+
+                .service-category ul {
+                        list-style: none;
+                        padding: 0;
+                }
+
+                .service-category li {
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 5px 0;
+                }
+
+                .notification {
+                        text-align: center;
+                        background: rgba(0, 0, 0, 0.5);
+                        padding: 10px;
+                        font-weight: bold;
+                        margin-bottom: 20px;
+                        color: #ffffff;
+                }
+
+                .footer {
+                        text-align: center;
+                        font-size: 0.9em;
+                        margin-top: 50px;
+                        color: #ffffff;
+                }
+        </style>
+</head>
+
+<body class="frontpage">
+
+        <div id="loader-wrapper">
+                <div id="loader"></div>
+                <div class="loader-section section-left"></div>
+                <div class="loader-section section-right"></div>
+        </div>
+
+        <div class="menu-outer">
+                <div class="menu-icon">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                </div>
+                <nav>
+                        <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="">About Us</a></li>
+                        </ul>
+                </nav>
+        </div>
+        <a class="menu-close" onClick="return true">
+                <div class="menu-icon">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                </div>
+        </a>
+
+        <div class="container">
+                <!-- Notification Section -->
+                <div class="notification">
+                        For Quotes, Call 02086161750
+                </div>
+
+                <!-- About Us Section -->
+                <section class="about-section">
+                        <h2 class="section-title">Emma B Beauty Salon</h2>
+                        <p class="sub-title">About Us</p>
+                        <p>
+                                Welcome to Emma B Beauty Salon, a vibrant and welcoming unisex beauty salon in Woolwich,
+                                offering a range of services to help you look and feel your best. With years of
+                                experience in the beauty industry, our salon is a trusted destination for personalized
+                                hair, nail, skincare, and wellness treatments. Our skilled team is committed to
+                                providing a high-quality, friendly experience in a relaxing environment. Join us for a
+                                transformative beauty experience today!
+                        </p>
+                </section>
+
+                <!-- Services & Prices Section -->
+                <section class="services-section">
+                        <h2 class="section-title">Services & Prices</h2>
+                        <p class="sub-title">Hair | Nails | Waxing | Facials | Massage | Male Grooming</p>
+                        <div class="service-list">
+                                <div class="service-category">
+                                        <h4>Hair Services</h4>
+                                        <ul>
+                                                <li><span>Women's Cut & Style</span> <span>£35.00</span></li>
+                                                <li><span>Men's Cut</span> <span>£20.00</span></li>
+                                                <li><span>Blow Dry</span> <span>£25.00</span></li>
+                                                <li><span>Colouring</span> <span>£45.00+</span></li>
+                                                <li><span>Highlights</span> <span>£60.00+</span></li>
+                                        </ul>
+                                </div>
+                                <div class="service-category">
+                                        <h4>Nail Services</h4>
+                                        <ul>
+                                                <li><span>Manicure</span> <span>£18.00</span></li>
+                                                <li><span>Pedicure</span> <span>£25.00</span></li>
+                                                <li><span>Gel Manicure</span> <span>£25.00</span></li>
+                                                <li><span>Acrylic Extensions</span> <span>£35.00</span></li>
+                                                <li><span>Nail Art (per nail)</span> <span>£3.00+</span></li>
+                                        </ul>
+                                </div>
+                                <div class="service-category">
+                                        <h4>Waxing</h4>
+                                        <ul>
+                                                <li><span>Eyebrow Wax</span> <span>£10.00</span></li>
+                                                <li><span>Leg Wax</span> <span>£25.00</span></li>
+                                                <li><span>Bikini Wax</span> <span>£20.00</span></li>
+                                                <li><span>Underarm Wax</span> <span>£15.00</span></li>
+                                                <li><span>Full Body Wax</span> <span>£60.00</span></li>
+                                        </ul>
+                                </div>
+                                <div class="service-category">
+                                        <h4>Facials & Skin Care</h4>
+                                        <ul>
+                                                <li><span>Basic Facial</span> <span>£30.00</span></li>
+                                                <li><span>Anti-Aging Facial</span> <span>£50.00</span></li>
+                                                <li><span>Acne Treatment</span> <span>£45.00</span></li>
+                                                <li><span>Hydrating Facial</span> <span>£40.00</span></li>
+                                                <li><span>Exfoliation Treatment</span> <span>£35.00</span></li>
+                                        </ul>
+                                </div>
+                                <div class="service-category">
+                                        <h4>Massage & Spa</h4>
+                                        <ul>
+                                                <li><span>Swedish Massage</span> <span>£40.00</span></li>
+                                                <li><span>Deep Tissue Massage</span> <span>£50.00</span></li>
+                                                <li><span>Hot Stone Massage</span> <span>£60.00</span></li>
+                                                <li><span>Back, Neck & Shoulders</span> <span>£30.00</span></li>
+                                                <li><span>Aromatherapy Massage</span> <span>£55.00</span></li>
+                                        </ul>
+                                </div>
+                                <div class="service-category">
+                                        <h4>Male Grooming</h4>
+                                        <ul>
+                                                <li><span>Beard Trim & Shape</span> <span>£15.00</span></li>
+                                                <li><span>Men's Facial</span> <span>£35.00</span></li>
+                                                <li><span>Chest Wax</span> <span>£25.00</span></li>
+                                                <li><span>Back Wax</span> <span>£30.00</span></li>
+                                                <li><span>Head Shave</span> <span>£20.00</span></li>
+                                        </ul>
+                                </div>
+                        </div>
+                </section>
+
+                <!-- Footer Section -->
+                <footer class="footer">
+                        <p>24 Plumstead Road, Woolwich, UK</p>
+                        <p><a href="https://www.emmabbeautysalon.co.uk">www.emmabbeautysalon.co.uk</a></p>
+                        <p>Follow us on <a href="#">@account</a></p>
+                </footer>
+        </div>
+
+        <!-- Scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/home.js"></script>
+        <script src="js/testimonials.js"></script>
+
+</body>
+
+</html>
